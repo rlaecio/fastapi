@@ -1,0 +1,83 @@
+.col-02-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.icon-form{
+    position: absolute;
+    margin-left: 5px;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    background: #f2f2f2;
+    opacity: 0.5;
+    /* border: 1px solid #e0e0e0; */
+    outline: none;
+    color: #6A707E;
+  }
+
+.especial-input {
+    padding-left: 25px;
+}
+
+
+.input-form {
+  height: 19px !important;
+  margin: 0;
+  box-sizing: border-box;
+  background: #f2f2f2;
+  opacity: 0.5;
+  border: 1px solid #e0e0e0;
+  outline: none;
+}
+
+label {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #6A707E;
+}
+
+#btn-salvar{
+    margin-top: .8rem;
+}
+
+.form-group {
+    margin-bottom: .6rem;
+}
+
+#historico, #marcacao {
+    display: inline;
+    position: relative; 
+}
+
+.box-form-text {
+    margin-top: -.5rem;
+}
+
+.form-cadasto {
+    position: absolute;
+    /* width: 440px; */
+    height: 725px;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: #ffffff;
+  }
+  
+  #observacoes-estado, 
+  #observacoes {
+    margin: 0;
+    box-sizing: border-box;
+    background: #f2f2f2;
+    opacity: 0.5;
+    border: 1px solid #e0e0e0;
+    outline: none;
+  }
+ 

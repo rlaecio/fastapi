@@ -1,17 +1,24 @@
-body{
-    background-color:rgb(236, 234, 232);
+html {
+  background-color: #F0F2F5 !important;
 }
-img {
-   width: 100%;
-   border-radius: 10px;
+
+.lado-direito { 
+  position: fixed;
+  /* width: 1110px;    */
+  height: 814px;
+  background: #ffffff;
+  box-sizing: border-box; 
 }
-.image{
-    width: 30%;
+
+#centro-pagina {
+  /* width: 1110px; */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-.details{
-    width: 70%;
-    margin: 12px
+
+.align-left {
+  /* display: flex; */
+  margin-left: 0rem;
 }
-.card {
-    border-radius: 20px;
-}
+

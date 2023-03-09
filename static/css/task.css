@@ -1,0 +1,14 @@
+.form-task-list {
+  position: absolute;
+  width: 100%;
+  height: 725px;
+
+  /* white */
+
+  background: #ffffff;
+  /* Gray 5 */
+
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
